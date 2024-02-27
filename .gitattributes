@@ -1,0 +1,7 @@
+data/cifar-10-python.tar.gz filter=lfs diff=lfs merge=lfs -text
+data* filter=lfs diff=lfs merge=lfs -text
+data.* filter=lfs diff=lfs merge=lfs -text
+test_batch.* filter=lfs diff=lfs merge=lfs -text
+test_batch* filter=lfs diff=lfs merge=lfs -text
+*.log filter=lfs diff=lfs merge=lfs -text
+*.ipynb filter=lfs diff=lfs merge=lfs -text
